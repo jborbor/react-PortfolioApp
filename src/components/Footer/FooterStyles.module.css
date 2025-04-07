@@ -1,7 +1,12 @@
 .container {
+  margin: 20px;
   text-align: center;
   p {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--footer-text-color);
   }
+}
+
+.version {
+  font-size: 1.25rem;
 }

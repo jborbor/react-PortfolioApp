@@ -59,8 +59,8 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
-  width: 25px;
+  right: 1;
+  width: 30px;
 }
 
 .colorMode:hover {
@@ -69,11 +69,13 @@
 
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 }
 

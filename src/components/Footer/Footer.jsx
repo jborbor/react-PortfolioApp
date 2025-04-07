@@ -4,8 +4,14 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Harris johnsen. <br />
-        All rights reserved.
+        <span className={styles.version}>
+          {" "}
+          &copy; My portfolio : version 2.0.1 Copyright @ 2025.
+        </span>
+        <br />
+        <br />
+        Esta app fue desarrollada utilizando React, Tailwind, Github, Netlify y
+        Toast....
       </p>
     </section>
   );
