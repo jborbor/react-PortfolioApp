@@ -98,7 +98,7 @@ const Skillsp = ({ ...rest }) => {
                 {skillsp.map((skill) => (
                   <li key={skill.href}>
                     <a href={skill.href} src="">
-                      <img src={skill.src} alt="" width="70" height="70" />
+                      <img src={skill.src} alt="" />
                     </a>
                   </li>
                 ))}
