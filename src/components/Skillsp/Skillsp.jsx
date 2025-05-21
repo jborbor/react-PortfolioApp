@@ -1,23 +1,31 @@
 import { useEffect } from "react";
 import styles from "./SkillspStyles.module.css";
-import tagBootstrap from "../../assets/TagCanvas/Bootstrap.png";
-import tagCss from "../../assets/TagCanvas/css.png";
-import tagGatsby from "../../assets/TagCanvas/gatsby.png";
+import tagAngular from "../../assets/TagCanvas/angular.png";
+import tagAws from "../../assets/TagCanvas/aws.png";
+import tagBootstrap from "../../assets/TagCanvas/bootstrap.png";
+import tagDocker from "../../assets/TagCanvas/docker.png";
 import tagGit from "../../assets/TagCanvas/git.png";
-import tagHtml from "../../assets/TagCanvas/html.png";
-import tagJs from "../../assets/TagCanvas/js.png";
-import tagLaravel from "../../assets/TagCanvas/laravel.png";
-import tagLess from "../../assets/TagCanvas/less.png";
+import tagJava from "../../assets/TagCanvas/Java-logo.png";
+import tagMysql from "../../assets/TagCanvas/mysql.png";
+import tagReact from "../../assets/TagCanvas/react.png";
+import tagSpring from "../../assets/TagCanvas/spring.png";
+import tagSql from "../../assets/TagCanvas/sql.png";
+import tagAzure from "../../assets/TagCanvas/azure.png";
+import tagJavascript from "../../assets/TagCanvas/javascript.png";
 
 const skillsp = [
-  { href: "#git_", src: tagBootstrap },
-  { href: "#json_", src: tagCss },
-  { href: "#solidity_", src: tagGatsby },
-  { href: "#html_", src: tagGit },
-  { href: "#react_", src: tagHtml },
-  { href: "#python_", src: tagJs },
-  { href: "#python_", src: tagLaravel },
-  { href: "#python_", src: tagLess },
+  { href: "#git_", src: tagAngular },
+  { href: "#json_", src: tagAws },
+  { href: "#solidity_", src: tagBootstrap },
+  { href: "#html_", src: tagDocker },
+  { href: "#react_", src: tagGit },
+  { href: "#python_", src: tagJava },
+  { href: "#python_", src: tagMysql },
+  { href: "#python_", src: tagReact },
+  { href: "#java_", src: tagSpring },
+  { href: "#java_", src: tagSql },
+  { href: "#java_", src: tagAzure },
+  { href: "#java_", src: tagJavascript },
 ];
 
 const Skillsp = ({ ...rest }) => {
@@ -31,7 +39,7 @@ const Skillsp = ({ ...rest }) => {
       reverse: false,
       depth: 0.8,
       initial: [0.2, -0.1],
-      maxSpeed: 0.03,
+      maxSpeed: 0.02,
       minSpeed: 0.02,
       wheelZoom: false,
     };
@@ -50,11 +58,31 @@ const Skillsp = ({ ...rest }) => {
 
         <div className={styles.skillsContainer}>
           <div>
-            <h2>fdnvfkjhbn</h2>
+            <p className={styles.description}>
+              Amplia Experiencia en el desarrollo de aplicaciones empresariales
+              para el Sector Financiero, realizando actividades como:
+            </p>
+            <br />
+            <p className={styles.description}>
+              - Desarrollo de componentes web.
+            </p>
+            <p className={styles.description}>
+              - Desarrollo y mantenimiento de Stored Procedures.
+            </p>
+            <p className={styles.description}>
+              - Implementacion de pruebas unitarias y automatizadas.
+            </p>
+            <br />
+            <br />
+            <hr />
+            <br />
+            <br />
+            <h2>Herramientas y Tecnología</h2>
 
             <p className={styles.description}>
-              With a passion for developing modern React web apps for commercial
-              businesses.
+              Java, Spring Boot, SQL Server, MySQL, Angular, React, AWS, Git,
+              Docker, JUnit, Mockito, Selenium, Cucumber, Serenity, Soap UI,
+              Servicios REST, SCRUM, Azure Pipelines, Azure Devops...
             </p>
           </div>
 
