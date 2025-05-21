@@ -74,6 +74,15 @@ p {
   cursor: pointer;
 }
 
+.card {
+  max-width: 275px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 @media (width >= 800px) {
   #root {
     gap: 100px;

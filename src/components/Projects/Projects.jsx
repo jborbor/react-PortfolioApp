@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import conciliacion from "../../assets/conciliacion.png";
+import projets from "../../assets/projets.png";
+import reconocimiento from "../../assets/reconocimiento.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -10,22 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={projets}
+          link="https://github.com/jborbor"
+          h3="Projets"
+          p="Aplicacion para administracion de proyectos."
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={conciliacion}
+          link="https://github.com/jborbor/sql-ConciliacionBancaria-backend"
+          h3="Bancos"
+          p="Modulo de Conciliacion Bancaria."
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={reconocimiento}
+          link="https://github.com/jborbor"
+          h3="FaceApp"
+          p="Aplicacion de reconocimiento facial."
         />
       </div>
     </section>

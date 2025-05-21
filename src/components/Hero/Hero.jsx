@@ -42,14 +42,14 @@ function Hero() {
         </h1>
         <h2>Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
+          <a href="https://www.linkedin.com/in/jonathanborbor/" target="_blank">
+            <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/jborbor" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+          <a href="https://x.com/jonathanbor96" target="_blank">
+            <img src={twitterIcon} alt="Twitter icon" />
           </a>
         </span>
         <p className={styles.description}>
